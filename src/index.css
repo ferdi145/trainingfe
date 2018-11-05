@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../public/fonts/Lato-Regular.ttf");
+}
+
+html, body {
+    margin: 0;
+    background: #eee;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+}
+
+tr {
+    border-bottom: 1px solid #eee;
+}
+
+.app {
+    max-width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 30px #999;
+}
+
+.page-container {
+    padding: 20px;
+}
+
+.big-logo {
+    height: 200px;
+    background: url("../public/img/logo_ApiOmat.svg") center center no-repeat;
+    background-size: contain;
+}
+
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #2c3e50;
+}
+
+.status-bar__logo {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    background: url("../public/img/Logo_Apiomat_A.svg") center center no-repeat;
+    background-size: contain;
+}
+
+.status-bar__logout {
+    height: 100%;
+    width: 100px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    background: url("../public/img/power-symbol.svg") center center no-repeat;
+    background-size: 30%;
+    border: none;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic--placeholder {
+    background: url("../public/img/person-placeholder.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.profile-pic--big {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.profile-pic--button {
+    background: url("../public/img/plus.svg") center center no-repeat;
+    background-size: 20%;
+    cursor: pointer;
+}
+
+.profile-pic--button input {
+}
+
+.inline-form {
+    margin: 0;
+}
